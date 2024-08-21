@@ -92,3 +92,31 @@ ul {
   font-weight: 700;
   font-size: 22px;
 }
+/* -----------------------------section nev----------------------------------- */
+.nev {
+  padding: 85px 0 150px;
+}
+.nev__info-title {
+margin-bottom: 50px;
+text-align: center;
+font-weight: 700;
+font-size: 28px;
+color: #717171;
+}
+
+.nev__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nev__info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 560px;
+}
+.nev__info-list-item-bold {
+  font-weight: 700;
+  font-size: 20px;
+}
