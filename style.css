@@ -120,3 +120,18 @@ color: #717171;
   font-weight: 700;
   font-size: 20px;
 }
+/* --------------------------------section card --------------------------- */
+.card__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.card__list-text {
+  text-align: center;
+}
+.card__list-text-bold {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px 0;
+}
